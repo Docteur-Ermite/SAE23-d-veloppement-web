@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
   <?php endif; ?>
 
   <h2>Add a user</h2>
-
+<div class="form">
   <form method="post">
     <input name="csrf" type="hidden" value="<?php echo escape($_SESSION['csrf']); ?>">
     <label for="nom">Nom</label>
@@ -59,7 +59,7 @@ if (isset($_POST['submit'])) {
     <input type="text" name="ville" id="ville">
     <input type="submit" name="submit" value="Submit">
   </form>
-
+  </div>
   <a href="index.php">Back to home</a>
 
 <?php require "templates/footer.php"; ?>

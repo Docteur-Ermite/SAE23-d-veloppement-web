@@ -1,9 +1,24 @@
-<?php include "templates/header.php"; ?>
+	<?php include "templates/header.php"; ?>
 
-<ul>
-	<li><a href="create.php"><strong>Nouveau Client</strong></a> -ajouter un client </li>
-	<li><a href="Produit.php"><strong>Nouveau produit</strong></a> - ajouter un produit</li>
-	<li><a href="Commande.php"><strong>Commander</strong></a> - commander un produit</li>
-</ul>
+
 
 <?php include "templates/footer.php"; ?>
+<div class="conteneur">
+<div class="callout">
+            <h5>Ajouter un client</h5>
+            <a href="create.php" class="small button">Nouveau Client</a>
+          </div>
+
+
+<div class="callout">
+            <h5>Ajouter un produit</h5>
+            <a href="Produit.php" class="small button">Nouveau produit</a>
+          </div>
+
+		  
+<div class="callout">
+            <h5>Commander un produit</h5>
+            <a href="Commande.php" class="small button">Commander</a>
+          </div>	
+</div>
+	  
