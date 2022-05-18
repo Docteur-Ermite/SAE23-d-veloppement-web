@@ -68,15 +68,15 @@ if (isset($_POST['submit'])) {
     <blockquote><?php echo escape($_POST['firstname']); ?> successfully added.</blockquote>
   <?php endif; ?>
 
-  <h2>Add a user</h2>
-
+  <h3>Voir les commandes</h3>
+<div class="form">
   <form method="post">
     
     
     
   <br></br>
     <select name="nom" id="nom_client">
-    <option value="">--Nom du Client--</option>
+    <option value="">Client</option>
     <?php
     foreach ($data as $key => $value) {
         echo '<option value="' .$value['id_client'].'">'.$value['nom'].'</option>';
@@ -87,12 +87,15 @@ if (isset($_POST['submit'])) {
 
     <br></br>
    
-    <input type="submit" name="submit" value="Submit">
-       
+  
   </form>
+  <button onclick="getinfo()" class="small button">Voir </button>
+  </div>
+  <br></br>
  
-  <button onclick="getinfo()"  class="small button">Do something! </button>
+  
+  <br></br>
   <div id="commandes"> </div>
-  <a href="index.php">Back to home</a>
+  <a href="index.php" class="small button">Acceuil</a>
 
 <?php require "templates/footer.php"; ?>

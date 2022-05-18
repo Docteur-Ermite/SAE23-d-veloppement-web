@@ -25,5 +25,16 @@
             <h5>Voir commande</h5>
             <a href="info_commande.php" class="small button">Voir</a>
           </div>	
+
+
+<div class="callout item">
+            <h5>Supprimer utilisateur</h5>
+            <a href="deleteUser.php" class="small button">Supprimer</a>
+          </div>
+
+<div class="callout item">
+            <h5>Supprimer produit</h5>
+            <a href="deleteProd.php" class="small button">Supprimer</a>
+          </div>		
 </div>
 	  

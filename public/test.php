@@ -17,11 +17,12 @@ echo "<h1>Cette utilisateur à commander :</h1><br></br>";
 
 
 ?>
-<div>
+<div class="liste">
   <?php
 foreach ($data_produit as $key) {
   echo "<br></br>";
-  echo $key['libelle'];
+  echo "🚀 ".$key['libelle'];
 }
   ?>
 </div>
+
