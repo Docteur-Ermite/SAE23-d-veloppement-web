@@ -42,8 +42,8 @@ if (isset($_POST['submit'])) {
     <blockquote><?php echo escape($_POST['firstname']); ?> successfully added.</blockquote>
   <?php endif; ?>
 
-  <h2>Add a user</h2>
-
+  <h2>Ajouter un produit</h2>
+<div class="form">
   <form method="post">
     <input name="csrf" type="hidden" value="<?php echo escape($_SESSION['csrf']); ?>">
     <label for="code_produit">code_produit</label>
@@ -52,10 +52,11 @@ if (isset($_POST['submit'])) {
     <input type="text" name="libelle" id="libelle">
     <label for="prix_unitaire">prix_unitaire</label>
     <input type="text" name="prix_unitaire" id="prix_unitaire">
-    <input type="submit" name="submit" value="Submit">
+    <input class="small button" type="submit" name="submit" value="Envoyer">
     
   </form>
+</div>
 
-  <a href="index.php">Back to home</a>
+  <a href="index.php" class="small button butonacc">Acceuil</a>
 
 <?php require "templates/footer.php"; ?>

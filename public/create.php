@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
     <blockquote><?php echo escape($_POST['firstname']); ?> successfully added.</blockquote>
   <?php endif; ?>
 
-  <h2>Add a user</h2>
+  <h2>S'inscire</h2>
 <div class="form">
   <form method="post">
     <input name="csrf" type="hidden" value="<?php echo escape($_SESSION['csrf']); ?>">
@@ -57,9 +57,9 @@ if (isset($_POST['submit'])) {
     <input type="text" name="code_postal" id="code_postal">
     <label for="ville">Ville</label>
     <input type="text" name="ville" id="ville">
-    <input type="submit" name="submit" value="Submit">
+    <input class="small button" type="submit" name="submit" value="Envoyer">
   </form>
   </div>
-  <a href="index.php">Back to home</a>
+  <a href="index.php" class="small button">Acceuil</a>
 
 <?php require "templates/footer.php"; ?>

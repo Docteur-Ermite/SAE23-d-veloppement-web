@@ -13,22 +13,52 @@ th {
 	padding: 5px;
 	border-bottom: 1px solid #aaa;
 }
+.titre{
 
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .conteneur{
+
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	flex-direction: column;
+	justify-content: center;
+	width: 20vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 	
 
 }
 
-.item{
-	padding: 10em;
-}
+
 
 .form{
 	display: flex;
 	flex-direction: row;
 	justify-content: left;
-	margin-left: 1vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
 }
+
+.callout{
+	text-align: center;
+}
+
+body{
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	color: white;
+}
+
+label{
+	color: white;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: large;
+
+}
+

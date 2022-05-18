@@ -68,8 +68,8 @@ if (isset($_POST['submit'])) {
     <blockquote><?php echo escape($_POST['firstname']); ?> successfully added.</blockquote>
   <?php endif; ?>
 
-  <h2>Add a user</h2>
-
+  <h2>Entrer une commande</h2>
+  <div class="form">
   <form method="post">
     <input name="csrf" type="hidden" value="<?php echo escape($_SESSION['csrf']); ?>">
     <label for="adresse_livraison">Adresse</label>
@@ -78,7 +78,7 @@ if (isset($_POST['submit'])) {
     
   <br></br>
     <select name="nom" id="nom_client">
-    <option value="">--Nom du Client--</option>
+    <option value="">Nom du Client</option>
     <?php
     foreach ($data as $key => $value) {
         echo '<option value="' .$value['id_client'].'">'.$value['nom'].'</option>';
@@ -89,17 +89,19 @@ if (isset($_POST['submit'])) {
 
     <br></br>
     <select name="libelle" id="libelle_client">
-    <option value="">--Nom du Client--</option>
+    <option value="">Produit</option>
     <?php
     foreach ($data_produit as $key => $value) {
         echo '<option value="' .$value['id_produit'].'">'.$value['libelle'].'</option>';
     }
     ?>
     </select>
-    <input type="submit" name="submit" value="Submit">
+    <input class="small button" type="submit" name="submit" value="Envoyer">
         
   </form>
+  </div>
 
-  <a href="index.php">Back to home</a>
+  <a href="index.php" class="small button">Acceuil</a>
+
 
 <?php require "templates/footer.php"; ?>
