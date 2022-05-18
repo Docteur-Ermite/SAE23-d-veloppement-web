@@ -1,6 +1,6 @@
 # Projet SAE23 Système de gestion de commande R&T IUT Reunion
 
-Système de gestion de commande utilisant foundation zurb
+Système de gestion de commande utilisant foundation zurb, publier par des étudiants de R&T de l'IUT de la Réunion
 
 ## Barême
 
