@@ -1,17 +1,20 @@
-# Connecting to MySQL in PHP using PDO
+# Projet SAE23 Système de gestion de commande R&T IUT Reunion
 
-Create a Simple Database App: Connecting to MySQL with PHP
+Système de gestion de commande utilisant foundation zurb
 
-### [Part 1: Create and Read](https://www.taniarascia.com/create-a-simple-database-app-connecting-to-mysql-with-php/)
-### [Part 2: Update and Delete](https://www.taniarascia.com/create-a-simple-crud-database-app-php-update-delete/)
+## Barême
 
-## Lessons
+- 4 pts : Ajout de client / produit ✅
+- 4 pts : Utilisation de Foundation Zurb ✅
+- 4 pts : Utilisation d'InnoDB (requêtes fonctionnelles en cascade)❌
+- 2 pts : Utilisation de PDO (fonctionnelle)✅
+- 3 pts : Utilisation d'Ajax (synchronisation : Client / Adresse)✅
+- 3 pts : Interface de suppression de client et de produit✅
+- 2 pts Bonus : Caddie et autre (modif style par défaut de Foundation)❌
 
-- Install database and create table structure
-- Submit new users
-- Query and filter users
-- Update users with new data
-- Delete users
+## Notes Obtenu
+
+o͡͡͡͡͡͡͡͡͡͡͡͡͡͡╮(｡❛ᴗ❛｡)╭o͡͡͡͡͡͡͡͡͡͡͡͡͡͡  ✈️ 20/20 🌴 o͡͡͡͡͡͡͡͡͡͡͡͡͡͡╮(｡❛ᴗ❛｡)╭o͡͡͡͡͡͡͡͡͡͡͡͡͡͡ 
 
 ## License
 
