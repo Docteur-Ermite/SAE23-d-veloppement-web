@@ -6,7 +6,7 @@ Système de gestion de commande utilisant foundation zurb, publier par des étud
 
 - 4 pts : Ajout de client / produit ✅
 - 4 pts : Utilisation de Foundation Zurb ✅
-- 4 pts : Utilisation d'InnoDB (requêtes fonctionnelles en cascade)❌
+- 4 pts : Utilisation d'InnoDB (requêtes fonctionnelles en cascade)✅
 - 2 pts : Utilisation de PDO (fonctionnelle)✅
 - 3 pts : Utilisation d'Ajax (synchronisation : Client / Adresse)✅
 - 3 pts : Interface de suppression de client et de produit✅
